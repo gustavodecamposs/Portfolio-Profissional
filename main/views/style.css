@@ -1,15 +1,67 @@
-/*body {
 
-}
+/*
+Colors:
+#8442ED - roxo
 
+Preto (#000000)
+
+Cinza Chumbo (#4B4B4B)
+
+Roxo Escuro (#5A189A)
+
+Prata Metálico (#B0B0B0)
+
+Dourado (#FFD700) (toque de luxo)
 
 */
+/* Header */
 
 header {
-    color: white;
+    background-color: #000511 !important;
+}
+
+body {
+    /*background-color: #4B4B4B !important;*/
+    background: #020018!important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh !important;
 }
 
 
+
+
+/* Main */
+
+main {
+    min-height: 100vh !important;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+}
+.frase-apresentacao {
+    font-size: 1.5rem;
+    color: #4d4d4d !important;
+
+}
+
+.frase-ola {
+    font-size: 1.2rem;
+    color: #8442ED !important;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.background-btn-purple {
+    background-color: #5A189A !important;
+    color: white !important;
+}
+
+.background-container {
+    background-color: #FFF5D6 !important;
+}
+
+/* Footer */
 
 .link-footer {
     text-decoration: underline;
