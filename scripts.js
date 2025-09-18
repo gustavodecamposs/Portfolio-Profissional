@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', function() {
     typeWriter();
   });
 
-  // Formulário de contato (se existir)
+  // Formulário de contato 
   const contactForm = document.querySelector('form');
   if (contactForm) {
     contactForm.addEventListener('submit', function(e) {
@@ -143,7 +143,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 });
 
-// Função para adicionar efeitos de hover nos cards
+// Função para adicionar efeitos de hover nos cards 
 function addCardHoverEffects() {
   const cards = document.querySelectorAll('.card');
   
