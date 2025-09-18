@@ -24,11 +24,19 @@ header {
     border-radius: 10px;
 }
 
+.icon-header img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px !important;
+}
+
+
 body {
     /*background-color: #4B4B4B !important;*/
     background: #020018!important;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     min-height: 100vh !important;
+    overflow: hidden;
 }
 
 
@@ -44,6 +52,8 @@ main {
 p {
     font-family: 'Inter', sans-serif;
 }
+
+
 .frase-apresentacao {
     font-size: 1.5rem;
     color: #4d4d4d !important;
@@ -62,16 +72,28 @@ p {
     color: white !important;
 }
 
+.background-btn-purple:hover {
+    background-color: #1c0a3f !important;
+    transition: width 2s !important;
+    
+}
+
 .background-container {
     background-color: #FFF5D6 !important;
 }
 
 /* Footer */
 
+.text-footer {
+    color:#8442ED !important;
+}
+
 .link-footer {
-    text-decoration: underline;
+    text-decoration: none;
+    
 }
 
 .link-footer:hover {
     transition: width 2s;
+    color: #020018;
 }
