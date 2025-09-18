@@ -30,13 +30,16 @@ header {
     margin-right: 10px !important;
 }
 
+#background {
+  z-index: -1; /* Mantém o fundo atrás */
+}
 
 body {
     /*background-color: #4B4B4B !important;*/
-    background: #020018!important;
+    /*background: #020018!important;*/
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     min-height: 100vh !important;
-    overflow: hidden;
+    
 }
 
 
