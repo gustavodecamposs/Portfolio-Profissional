@@ -30,16 +30,41 @@ header {
     margin-right: 10px !important;
 }
 
+html, body { height: 100%; margin:0; padding:0;}
+    #vanta-bg {
+      position: fixed;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+    /* Sobreposição para mais opacidade */
+    #vanta-bg::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-color: rgba(20, 10, 40, 0.4); /* roxo escuro semitransparente */
+    }
+    .main-content { position: relative; z-index: 1; }
 
-
-body {
-    /*background-color: #4B4B4B !important;*/
-    background: #020018!important;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    min-height: 100vh !important;
-    
-}
-
+/* Background Vanta.js */
+html, body { height: 100%; margin:0; padding:0;}
+    #vanta-bg {
+      position: fixed;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+    /* Sobreposição para mais opacidade */
+    #vanta-bg::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-color: rgba(20, 10, 40, 0.4); /* roxo escuro semitransparente */
+    }
+    .main-content { position: relative; z-index: 1; }
+/*
 
 
 
