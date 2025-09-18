@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', function() {
     contactForm.addEventListener('submit', function(e) {
       e.preventDefault();
       
-      // Aqui você pode adicionar a lógica para enviar o formulário
+      // Aqui tem que adicionar a lógica para enviar o formulário
       // Por exemplo, usando fetch para enviar para um servidor
       
       // Feedback visual
