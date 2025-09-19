@@ -80,7 +80,6 @@ document.addEventListener('DOMContentLoaded', function() {
       // Aqui tem que adicionar a lógica para enviar o formulário
       // Por exemplo, usando fetch para enviar para um servidor
       
-      // Feedback visual
       const submitBtn = this.querySelector('button[type="submit"]');
       const originalText = submitBtn.textContent;
       

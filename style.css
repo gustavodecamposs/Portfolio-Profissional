@@ -17,6 +17,12 @@ body {
   opacity: 0.4 !important;
 }
 
+/* Main */
+
+.btn-bottom-projetos {
+  margin-top: auto;
+}
+
 .main-content {
   position: relative;
   z-index: 1;
